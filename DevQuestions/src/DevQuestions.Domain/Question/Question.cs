@@ -10,7 +10,7 @@ public class Question
     
     public required Guid UserId { get; set; }
     
-    public Guid? ScreenShotId { get; set; }
+    public Guid? ScreenShotsId { get; set; }
 
     public List<Answer> Answers { get; set; } = [];
     
