@@ -44,7 +44,7 @@ public class QuestionsController : ControllerBase
         [FromRoute] Guid questionId, 
         CancellationToken cancellationToken)
     {
-        return Ok("Question deleted");
+        return Ok("Question delete");
     }
 
     [HttpPut("{questionId:guid}/solution")]
