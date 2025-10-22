@@ -4,6 +4,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevQuestions.Domain", "src\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0FF396EE-95E0-4017-8639-891F1274A209}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevQuestions.Web", "src\DevQuestions.Web\DevQuestions.Web.csproj", "{B1CF8B1F-A48E-42E4-A509-68C77F95E0E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevQuestions.Presenters", "src\DevQuestions.Presenters\DevQuestions.Presenters.csproj", "{007F077D-F0D5-4017-AE21-DC6D3D0D0555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevQuestions.Contract", "src\DevQuestions.Contract\DevQuestions.Contract.csproj", "{57F1996E-CFF6-4F09-86AE-0F25F8EA8632}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,8 +20,23 @@ Global
 		{6CFB9533-BF05-412D-85FC-DAC45B967F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CFB9533-BF05-412D-85FC-DAC45B967F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CFB9533-BF05-412D-85FC-DAC45B967F72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1CF8B1F-A48E-42E4-A509-68C77F95E0E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1CF8B1F-A48E-42E4-A509-68C77F95E0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1CF8B1F-A48E-42E4-A509-68C77F95E0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1CF8B1F-A48E-42E4-A509-68C77F95E0E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{007F077D-F0D5-4017-AE21-DC6D3D0D0555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007F077D-F0D5-4017-AE21-DC6D3D0D0555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007F077D-F0D5-4017-AE21-DC6D3D0D0555}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007F077D-F0D5-4017-AE21-DC6D3D0D0555}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57F1996E-CFF6-4F09-86AE-0F25F8EA8632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57F1996E-CFF6-4F09-86AE-0F25F8EA8632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57F1996E-CFF6-4F09-86AE-0F25F8EA8632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57F1996E-CFF6-4F09-86AE-0F25F8EA8632}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6CFB9533-BF05-412D-85FC-DAC45B967F72} = {0FF396EE-95E0-4017-8639-891F1274A209}
+		{B1CF8B1F-A48E-42E4-A509-68C77F95E0E8} = {0FF396EE-95E0-4017-8639-891F1274A209}
+		{007F077D-F0D5-4017-AE21-DC6D3D0D0555} = {0FF396EE-95E0-4017-8639-891F1274A209}
+		{57F1996E-CFF6-4F09-86AE-0F25F8EA8632} = {0FF396EE-95E0-4017-8639-891F1274A209}
 	EndGlobalSection
 EndGlobal
